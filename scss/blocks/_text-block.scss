@@ -75,6 +75,14 @@
   a {
     font-weight: 500;
     color: $color-feldspar;
+
+    &:hover {
+      color: $color-zorba;
+    }
+
+    &:focus {
+      color: $color-zorba;
+    }
   }
 
   ul {
