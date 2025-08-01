@@ -432,6 +432,12 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 }
+.footer__nav-link:hover {
+  color: #a99e96;
+}
+.footer__nav-link:focus {
+  color: #a99e96;
+}
 .footer__info {
   display: flex;
   flex-direction: column;
@@ -473,6 +479,12 @@ img {
   color: #212e4a;
   border: 1px solid #e9eaed;
   border-left: none;
+}
+.footer__social-link:hover {
+  color: #a99e96;
+}
+.footer__social-link:focus {
+  color: #a99e96;
 }
 .footer__office {
   margin: 0 0 6px 0;
@@ -556,6 +568,12 @@ img {
 .text-block a {
   font-weight: 500;
   color: #c99374;
+}
+.text-block a:hover {
+  color: #a99e96;
+}
+.text-block a:focus {
+  color: #a99e96;
 }
 .text-block ul {
   margin: 0 auto 16px;

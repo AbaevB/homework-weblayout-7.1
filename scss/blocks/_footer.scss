@@ -29,6 +29,14 @@
     color: $color-bunting;
     text-decoration: none;
     text-transform: uppercase;
+
+    &:hover {
+      color: $color-zorba;
+    }
+
+    &:focus {
+      color: $color-zorba;
+    }
   }
 
   &__info {
@@ -80,6 +88,14 @@
     color: $color-bunting;
     border: 1px solid $color-solitude;
     border-left: none;
+
+    &:hover {
+      color: $color-zorba;
+    }
+
+    &:focus {
+      color: $color-zorba;
+    }
   }
 
   &__office {
