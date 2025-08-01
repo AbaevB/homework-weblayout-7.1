@@ -2,6 +2,8 @@
   padding: 50px 0;
   background-color: $color-white;
 
+
+
   &__content {
     display: flex;
     justify-content: space-between;
@@ -20,6 +22,10 @@
 
   &__nav-item:not(:last-child) {
     margin: 0 0 28px 0;
+
+    @include vp-1023  {
+      margin: 0 0 20px;
+    }
   }
 
   &__nav-link {
@@ -49,12 +55,18 @@
     flex-direction: column;
     align-items: center;
     margin: 0 0 21px 0;
+
   }
 
   &__logo-img {
     width: 133px;
     height: 32px;
     margin: 0 0 11px 0;
+
+    @include vp-1023  {
+      width: 102px;
+      height: 24px;
+    }
   }
 
   &__slogan {
@@ -63,6 +75,11 @@
     color: $color-bunting;
     text-align: center;
     text-transform: uppercase;
+
+    @include vp-1023  {
+      font-size: 10px;
+      line-height: 14px;
+    }
   }
 
   &__social-list {
@@ -96,6 +113,11 @@
     &:focus {
       color: $color-zorba;
     }
+
+    @include vp-1023  {
+      width: 74px;
+      height: 64px;
+    }
   }
 
   &__office {
@@ -104,14 +126,25 @@
     line-height: 20px;
     color: $color-storm-grey;
     text-align: center;
+
+    @include vp-1023  {
+      margin: 0 0 5px;
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 
   &__phone {
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
     color: $color-bunting;
     text-align: center;
     text-decoration: none;
+
+    @include vp-1023  {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
 }
