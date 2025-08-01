@@ -20,7 +20,11 @@
     height: 540px;
     margin: 0 auto 28px;
 
-   
+   @include vp-1023 {
+    max-width: 728px;
+    height: 380px;
+    
+   }
   }
 
   figure {
