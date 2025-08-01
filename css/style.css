@@ -559,10 +559,20 @@ img {
 .text-block {
   padding: 0 0 83px;
 }
+@media (max-width: 1024px) {
+  .text-block {
+    padding: 0 0 64px;
+  }
+}
 .text-block * {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+}
+@media (max-width: 1024px) {
+  .text-block * {
+    max-width: 600px;
+  }
 }
 .text-block img {
   max-width: 1200px;
@@ -572,10 +582,21 @@ img {
 .text-block figure {
   margin: 0 auto 48px;
 }
+@media (max-width: 1024px) {
+  .text-block figure {
+    margin: 0 auto 40px;
+  }
+}
 .text-block figure img {
   width: 800px;
   height: 400px;
   margin: 0 0 12px;
+}
+@media (max-width: 1024px) {
+  .text-block figure img {
+    width: 600px;
+    height: 300px;
+  }
 }
 .text-block figcaption {
   font-size: 14px;
@@ -592,12 +613,25 @@ img {
   color: #a99e96;
   text-align: center;
 }
+@media (max-width: 1024px) {
+  .text-block h1 {
+    max-width: 728px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
 .text-block h2 {
   margin: 48px auto 16px;
   font-size: 32px;
   font-weight: 300;
   line-height: 34px;
   color: #a99e96;
+}
+@media (max-width: 1024px) {
+  .text-block h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 .text-block p {
   margin: 0 auto 16px;
@@ -611,6 +645,11 @@ img {
   background: linear-gradient(90deg, rgba(76, 119, 170, 0.8) 0%, rgba(52, 86, 160, 0.8) 100%);
   border-radius: 120px;
 }
+@media (max-width: 1024px) {
+  .text-block blockquote {
+    padding: 20px;
+  }
+}
 .text-block blockquote p {
   margin: 0 auto;
 }
@@ -618,6 +657,11 @@ img {
   font-style: italic;
   color: #a99e96;
   letter-spacing: 0.08em;
+}
+@media (max-width: 1024px) {
+  .text-block q {
+    letter-spacing: 0;
+  }
 }
 .text-block a {
   font-weight: 500;
